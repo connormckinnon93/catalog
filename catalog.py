@@ -455,4 +455,4 @@ def itemJSON(item_id):
 if __name__ == '__main__':
     app.secret_key = 'super_secret_key'
     app.debug = False
-    app.run(host='127.0.0.1', port=80)
+    app.run(host='172.26.1.36', port=80)
